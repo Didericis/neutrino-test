@@ -1,0 +1,22 @@
+{
+  "name": "neutrino-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "neutrino build",
+    "start": "neutrino start",
+    "lint": "neutrino lint",
+    "test": "neutrino test"
+  },
+  "files": ["build"],
+  "devDependencies": {
+    "@neutrinojs/airbnb": "^8.2.2",
+    "@neutrinojs/mocha": "^8.2.2",
+    "@neutrinojs/react-components": "^8.2.2",
+    "neutrino": "^8.2.2",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
