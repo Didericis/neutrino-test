@@ -8,7 +8,7 @@
     "lint": "neutrino lint",
     "test": "neutrino test"
   },
-  "main": "build/index.js",
+  "main": "build/NeutrinoTest.js",
   "files": ["build"],
   "devDependencies": {
     "@neutrinojs/airbnb": "^8.2.2",

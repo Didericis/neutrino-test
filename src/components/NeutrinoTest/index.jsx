@@ -1,6 +1,6 @@
 import { PureComponent } from 'react'; // eslint-disable-line import/no-extraneous-dependencies
 import { string } from 'prop-types'; // eslint-disable-line import/no-extraneous-dependencies
-import './hello_world.css';
+import './index.css';
 
 const generateColor = () => `#${
   (0x1000000 + ((Math.random()) * 0xffffff))
